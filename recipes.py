@@ -2,7 +2,7 @@ class Ingredient:
     def __init__(self, name: str, quantity, unit: str):
         self.name = name
         self.unit = unit
-        self.quantity = quantity  # важно: через property
+        self.quantity = quantity  
     @property
     def quantity(self) -> float:
         return self._quantity
